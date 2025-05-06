@@ -1,0 +1,31 @@
+/*
+  Optional CSS file if you want to style the display elements more extensively.
+  The JavaScript currently applies basic styles directly.
+  If you use this, make sure it's referenced in manifest.json
+  and the styles are applied via class names added in content.js.
+
+  Example:
+  .rollbit-totals-container {
+    border: 1px solid #444;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #2a2a2e;
+    color: #eee;
+    border-radius: 5px;
+    text-align: right;
+  }
+
+  .rollbit-total-line {
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
+
+  .rollbit-pnl-positive {
+      color: #4caf50;
+  }
+
+  .rollbit-pnl-negative {
+      color: #f44336;
+  }
+
+*/
