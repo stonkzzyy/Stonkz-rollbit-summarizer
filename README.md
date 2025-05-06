@@ -11,7 +11,7 @@ Since this extension is not yet on the Chrome Web Store (or if you prefer to ins
     * Click the green "Code" button on this GitHub repository page.
     * Select "Download ZIP".
     * Unzip the downloaded file to a folder on your computer.
-    *(Alternatively, you can clone the repository if you have Git installed: `git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git` - replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub username and repository name)*
+    *(Alternatively, you can clone the repository if you have Git installed: `git clone [https://github.com/stonkzzyy/Stonkz-rollbit-summarizer]`*
 
 2.  **Open Chrome Extensions:**
     * Open Google Chrome.
@@ -31,10 +31,11 @@ The "Rollbit Summarizer" extension should now appear in your list of extensions 
     * Total Wager
     * % Gain (on the left of the second line)
     * Total P&L (on the right of the second line, on the same line as % Gain)
-4.  The values will automatically update every minute.
+4.  The values will automatically update every 2 seconds.
 ## Screenshots
-`![Stonkz Rollbit Summarizer](\stonkz-rollbit-summarizer\screenshots\screenshot1.png)`)*
+![Rollbit Summarizer in Action](screenshots/screenshot1.png)
 Troubleshooting
+
 Summary box not appearing?
 Ensure you are on a Rollbit page with an active bets table that has "WAGER" and "P&L" columns in its header.
 Double-check that the extension is enabled in chrome://extensions.
