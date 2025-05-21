@@ -1,24 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Rollbit Bet Summarizer",
-  "version": "1.0",
-  "description": "Calculates and displays total Wager and P&L for active bets on Rollbit.",
-  "permissions": [
-    "activeTab", // Needed if triggered by user action, but content script is better here
-    "scripting", // Needed to inject content script programmatically (alternative)
-    "storage" // Optional: if you wanted to store settings
-  ],
+  "name": "Rollbit Summarizer",
+  "version": "2.0.0",
+  "description": "Summarizes Wager, P&L, % Gain, and shows a P&L chart with controls for active bets on Rollbit.",
   "content_scripts": [
     {
-      "matches": ["*://*.rollbit.com/*"], // Runs on all Rollbit pages
+      "matches": ["*://*.rollbit.com/trading/*"],
       "js": ["content.js"],
-      "css": ["styles.css"] // Optional CSS file
+      "run_at": "document_idle"
     }
   ],
-   "web_accessible_resources": [
-    {
-      "resources": ["styles.css"], // Make CSS accessible if needed by JS
-      "matches": ["*://*.rollbit.com/*"]
-    }
+  "permissions": [
+    "storage"
   ]
 }
